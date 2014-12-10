@@ -1,0 +1,78 @@
+/* Box-sizing reset */
+* { box-sizing: border-box; }
+
+/* Globals */
+body { 
+	font-family: Calibri, Verdana, sans-serif; 
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	margin: 0px 0px 0px 0px;
+	padding-top:5px;
+	text-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+/* Sections */
+.section {
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px; 
+	margin-bottom:5px; 
+	border-radius:3px; 
+	padding-bottom:5px;
+	min-width:320px;
+}
+
+/* Cards */
+.card {
+	width:315px;
+	height:300px;
+	margin-bottom:15px;
+	border-radius:3px;
+	padding:3px;
+	display:inline-block;
+	vertical-align: top;
+	box-shadow:0px 3px 5px hsla(0, 0%, 0%, 0.5);
+}
+
+
+.card-header { 
+	font-size:1.2em;
+	line-height:1.2em;
+	padding:0px;
+	margin: 10px 5px 10px 5px;
+}
+
+.card-link { 
+	text-decoration: underline;
+	margin: 0px 5px 0px 5px;
+	font-size:0.9em;
+}
+
+.card-text {
+	margin: 10px 5px 5px 5px;
+	font-size:0.8em;
+}
+
+.card-thumb {
+	float:right;
+	width:140px;
+	margin-right:2px;
+	margin-left:4px;
+	margin-bottom:4px;
+	box-shadow:0px 1px 2px hsla(0, 0%, 0%, 0.5);
+}
+
+/* Colors */
+.text.pastel-pink   { color: #fef1f0; }
+.text.pastel-blue   { color: #f0f1fe; }
+.text.pastel-green  { color: #f0fef1; }
+.text.pastel-yellow { color: #fefaf0; }
+
+.back.pastel-pink   { background-color:#fef1f0; }
+.back.pastel-blue   { background-color:#f0f1fe; }
+.back.pastel-green  { background-color:#f0fef1; }
+.back.pastel-yellow { background-color:#fefaf0; }
+
